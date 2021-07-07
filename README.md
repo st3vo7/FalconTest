@@ -1,6 +1,6 @@
 # Hiring test
 
-This repository contains a skeleton for a small REST API app, that you should build using Falcon (https://falcon.readthedocs.io/en/stable/). Please complete the following tasks and push your code to this repository.
+This repository contains a skeleton for a small REST API app, that you should build using Falcon (https://falcon.readthedocs.io/en/stable/). Please complete the following tasks, push your code to a new repository and send it to us by mail.
 
 - There is one file in the repo called `run_test.py`. This is the file that you need to be able to run to finish the test. You can use this for testing your intermediate solutions.
 - The REST app that you need to build needs to have a route `check`, that takes 3 parameters: `first_name` and `last_name` and `email`.
