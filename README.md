@@ -17,3 +17,20 @@ This repository contains a skeleton for a small REST API app, that you should bu
 - Try to show best practices in your code and in the building of the docker container.
 
 If you have any questions, do not hesitate to contact me. Good luck! 
+
+----------------------------------------------------------
+- Regarding the server side, I used `gunicorn`, and got local server up and running by `gunicorn -b 127.0.0.1:8901 api:app --reload` command.
+
+- For testing purposes, I used _Postman_ platform, as well as the script `run_test.py` which you wrote.
+
+- I created a new branch, and when the assignment is finished, I will open a pull request.
+
+- Questions:
+    - You stated above that I should create a route `check`, but in the test file url is `http://localhost:8901/hello`,
+    so I used that one. Is that okay?
+    
+    - After installing packages from `requirements.txt` (by `pip install -r ./code/requirements.txt`) I got a bit different 
+    set of modules (meaning more modules than in the `requirements.txt`).
+    Should I export the list somewhere?
+    
+
