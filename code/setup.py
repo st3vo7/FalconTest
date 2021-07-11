@@ -6,7 +6,7 @@ REQUIREMENTS = [line.strip() for line in open(os.path.join(ROOT_DIR, "requiremen
 
 setuptools.setup(
     name="smallapp",
-    version='0.0.0',
+    version='0.0.1',
     packages=setuptools.find_packages(),
     license="MIT",
     python_requires=">=3.7",
