@@ -68,8 +68,6 @@ class Resource:
 def create_api():
     api = falcon.API(media_type="application/json")
     # Your Code here
+    api.add_route('/hello', Resource())
     return api
 
-
-app = create_api()
-app.add_route('/hello', Resource())
