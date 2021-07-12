@@ -3,7 +3,7 @@ import requests
 first_name = 'KAREL'
 last_name = 'VANHOOREBEECK'
 email = "karel@raymon.ai"
-resp = requests.get(url="http://localhost:8901/hello", params={'first_name': first_name, 'last_name': last_name, 'email': email})
+resp = requests.get(url="http://localhost:8901/check", params={'first_name': first_name, 'last_name': last_name, 'email': email})
 json_resp = resp.json()
 print(json_resp)
 # %%
